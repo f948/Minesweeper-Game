@@ -1,0 +1,335 @@
+<html>
+<head>
+	<style>
+		table, td {
+		border: 1px solid black;
+		width 10px;
+		}
+	</style>
+</head>
+<body>
+	<table>
+	<tr>
+	<td><canvas width = "50" height="50" id="Sidewalk" name="1"></td>
+	<td><canvas width = "50" height="50" id="Sidewalk"name="2"></td>
+	<td><canvas width = "50" height="50" id="Sidewalk" name="3"></td>
+	<td><canvas width = "50" height="50" id="Sidewalk"name="4"></td>
+    <td><canvas width = "50" height="50" id="Sidewalk"name="5"></td>
+	<td><canvas width = "50" height="50" id="Sidewalk" name="6"></td>
+	<td><canvas width = "50" height="50" id="Sidewalk"name="7"></td>
+    <td><canvas width = "50" height="50" id="Sidewalk"name="8"></td>
+	<td><canvas width = "50" height="50" id="Sidewalk" name="9"></td>
+	<td><canvas width = "50" height="50" id="Sidewalk"name="10"></td>
+	<td><canvas width = "50" height="50" id="Sidewalk" name="11"></td>
+  </tr>
+	<tr>
+	<td><canvas width = "50" height="50" id="Sidewalk"name="12"></td>
+    <td><canvas width = "50" height="50" id="Empty"name="13" onclick="turn(13)"></td>
+	<td><canvas width = "50" height="50" id="Empty" name="14"onclick="turn(14)"></td>
+	<td><canvas width = "50" height="50" id="Empty"name="15"onclick="turn(15)"></td>
+    <td><canvas width = "50" height="50" id="Empty"name="16"onclick="turn(16)"></td>
+	<td><canvas width = "50" height="50" id="Empty" name="17"onclick="turn(17)"></td>
+	<td><canvas width = "50" height="50" id="Empty"name="18"onclick="turn(18)"></td>
+	<td><canvas width = "50" height="50" id="Empty" name="19"onclick="turn(19)"></td>
+	<td><canvas width = "50" height="50" id="Empty" name="20"onclick="turn(20)"></td>
+	<td><canvas width = "50" height="50" id="Empty" name="21"onclick="turn(21)"></td>
+	<td><canvas width = "50" height="50" id="Sidewalk"name="22"></td>
+  </tr>
+    <tr>
+    <td><canvas width = "50" height="50" id="Sidewalk"name="23"></td>
+	<td><canvas width = "50" height="50" id="Empty" name="24"onclick="turn(24)"></td>
+	<td><canvas width = "50" height="50" id="Empty"name="25"onclick="turn(25)"></td>
+    <td><canvas width = "50" height="50" id="Empty"name="26"onclick="turn(26)"></td>
+	<td><canvas width = "50" height="50" id="Empty" name="27"onclick="turn(27)"></td>
+	<td><canvas width = "50" height="50" id="Empty"name="28"onclick="turn(28)"></td>
+	<td><canvas width = "50" height="50" id="Empty" name="29"onclick="turn(29)"></td>
+	<td><canvas width = "50" height="50" id="Empty" name="30"onclick="turn(30)"></td>
+	<td><canvas width = "50" height="50" id="Empty" name="31"onclick="turn(31)"></td>
+	<td><canvas width = "50" height="50" id="Empty"name="32"onclick="turn(32)"></td>
+    <td><canvas width = "50" height="50" id="Sidewalk"name="33"></td>
+  </tr>
+     <tr>
+	<td><canvas width = "50" height="50" id="Sidewalk" name="34"></td>
+	<td><canvas width = "50" height="50" id="Empty"name="35"onclick="turn(35)"></td>
+    <td><canvas width = "50" height="50" id="Empty"name="36"onclick="turn(36)"></td>
+	<td><canvas width = "50" height="50" id="Empty" name="37"onclick="turn(37)"></td>
+	<td><canvas width = "50" height="50" id="Empty"name="38"onclick="turn(38)"></td>
+	<td><canvas width = "50" height="50" id="Empty" name="39"onclick="turn(39)"></td>
+	<td><canvas width = "50" height="50" id="Empty" name="40"onclick="turn(40)"></td>
+	<td><canvas width = "50" height="50" id="Empty" name="41"onclick="turn(41)"></td>
+	<td><canvas width = "50" height="50" id="Empty"name="42"onclick="turn(42)"></td>
+    <td><canvas width = "50" height="50" id="Empty"name="43"onclick="turn(43)"></td>
+	<td><canvas width = "50" height="50" id="Sidewalk" name="44"></td>
+  </tr>
+  <tr>
+	<td><canvas width = "50" height="50" id="Sidewalk"name="45"onclick="turn(45)"></td>
+    <td><canvas width = "50" height="50" id="Empty"name="46"onclick="turn(46)"></td>
+	<td><canvas width = "50" height="50" id="Empty" name="47"onclick="turn(47)"></td>
+	<td><canvas width = "50" height="50" id="Empty"name="48"onclick="turn(48)"></td>
+	<td><canvas width = "50" height="50" id="Empty" name="49"onclick="turn(49)"></td>
+	<td><canvas width = "50" height="50" id="Empty" name="50"onclick="turn(50)"></td>
+	<td><canvas width = "50" height="50" id="Empty" name="51"onclick="turn(51)"></td>
+	<td><canvas width = "50" height="50" id="Empty"name="52"onclick="turn(52)"></td>
+    <td><canvas width = "50" height="50" id="Empty"name="53"onclick="turn(53)"></td>
+	<td><canvas width = "50" height="50" id="Empty" name="54"onclick="turn(54)"></td>
+	<td><canvas width = "50" height="50" id="Sidewalk"name="55"></td>
+  </tr>
+  <tr>
+    <td><canvas width = "50" height="50" id="Sidewalk"name="56"></td>
+	<td><canvas width = "50" height="50" id="Empty" name="57"onclick="turn(57)"></td>
+	<td><canvas width = "50" height="50" id="Empty"name="58"onclick="turn(58)"></td>
+	<td><canvas width = "50" height="50" id="Empty" name="59"onclick="turn(59)"></td>
+	<td><canvas width = "50" height="50" id="Empty" name="60"onclick="turn(60)"></td>
+	<td><canvas width = "50" height="50" id="Empty" name="61"onclick="turn(61)"></td>
+	<td><canvas width = "50" height="50" id="Empty"name="62"onclick="turn(62)"></td>
+    <td><canvas width = "50" height="50" id="Empty"name="63"onclick="turn(63)"></td>
+	<td><canvas width = "50" height="50" id="Empty" name="64"onclick="turn(64)"></td>
+	<td><canvas width = "50" height="50" id="Empty"name="65"onclick="turn(65)"></td>
+    <td><canvas width = "50" height="50" id="Sidewalk"name="66"></td>
+  </tr>
+  <tr>
+	<td><canvas width = "50" height="50" id="Sidewalk" name="67"></td>
+	<td><canvas width = "50" height="50" id="Empty"name="68"onclick="turn(68)"></td>
+	<td><canvas width = "50" height="50" id="Empty" name="69"onclick="turn(69)"></td>
+	<td><canvas width = "50" height="50" id="Empty" name="70"onclick="turn(70)"></td>
+	<td><canvas width = "50" height="50" id="Empty" name="71"onclick="turn(71)"></td>
+	<td><canvas width = "50" height="50" id="Empty"name="72"onclick="turn(72)"></td>
+    <td><canvas width = "50" height="50" id="Empty"name="73"onclick="turn(73)"></td>
+	<td><canvas width = "50" height="50" id="Empty" name="74"onclick="turn(74)"></td>
+	<td><canvas width = "50" height="50" id="Empty"name="75"onclick="turn(75)"></td>
+    <td><canvas width = "50" height="50" id="Empty"name="76"onclick="turn(76)"></td>
+	<td><canvas width = "50" height="50" id="Sidewalk" name="77"></td>
+  </tr>
+  <tr>
+	<td><canvas width = "50" height="50" id="Sidewalk"name="78"></td>
+	<td><canvas width = "50" height="50" id="Empty" name="79"onclick="turn(79)"></td>
+	<td><canvas width = "50" height="50" id="Empty" name="80"onclick="turn(80)"></td>
+	<td><canvas width = "50" height="50" id="Empty" name="81"onclick="turn(81)"></td>
+	<td><canvas width = "50" height="50" id="Empty"name="82"onclick="turn(82)"></td>
+    <td><canvas width = "50" height="50" id="Empty"name="83"onclick="turn(83)"></td>
+	<td><canvas width = "50" height="50" id="Empty" name="84"onclick="turn(84)"></td>
+	<td><canvas width = "50" height="50" id="Empty"name="85"onclick="turn(85)"></td>
+    <td><canvas width = "50" height="50" id="Empty"name="86"onclick="turn(86)"></td>
+	<td><canvas width = "50" height="50" id="Empty" name="87"onclick="turn(87)"></td>
+	<td><canvas width = "50" height="50" id="Sidewalk"name="88"></td>
+  </tr>
+  <tr>
+	<td><canvas width = "50" height="50" id="Sidewalk" name="89"></td>
+	<td><canvas width = "50" height="50" id="Empty" name="90"onclick="turn(90)"></td>
+	<td><canvas width = "50" height="50" id="Empty" name="91"onclick="turn(91)"></td>
+	<td><canvas width = "50" height="50" id="Empty"name="92"onclick="turn(92)"></td>
+    <td><canvas width = "50" height="50" id="Empty"name="93"onclick="turn(93)"></td>
+	<td><canvas width = "50" height="50" id="Empty" name="94"onclick="turn(94)"></td>
+	<td><canvas width = "50" height="50" id="Empty"name="95"onclick="turn(95)"></td>
+    <td><canvas width = "50" height="50" id="Empty"name="96"onclick="turn(96)"></td>
+	<td><canvas width = "50" height="50" id="Empty" name="97"onclick="turn(97)"></td>
+	<td><canvas width = "50" height="50" id="Empty"name="98"onclick="turn(98)"></td>
+	<td><canvas width = "50" height="50" id="Sidewalk" name="99"></td>
+  </tr>
+  <tr>
+	<td><canvas width = "50" height="50" id="Sidewalk" name="100"></td>
+	<td><canvas width = "50" height="50" id="Empty" name="101"onclick="turn(101)"></td>
+	<td><canvas width = "50" height="50" id="Empty"name="102"onclick="turn(102)"></td>
+    <td><canvas width = "50" height="50" id="Empty"name="103"onclick="turn(103)"></td>
+	<td><canvas width = "50" height="50" id="Empty" name="104"onclick="turn(104)"></td>
+	<td><canvas width = "50" height="50" id="Empty"name="105"onclick="turn(105)"></td>
+    <td><canvas width = "50" height="50" id="Empty"name="106"onclick="turn(106)"></td>
+	<td><canvas width = "50" height="50" id="Empty" name="107"onclick="turn(107)"></td>
+	<td><canvas width = "50" height="50" id="Empty"name="108"onclick="turn(108)"></td>
+	<td><canvas width = "50" height="50" id="Empty" name="109"onclick="turn(109)"></td>
+	<td><canvas width = "50" height="50" id="Sidewalk" name="110"></td>
+  </tr>
+  <tr>
+	<td><canvas width = "50" height="50" id="Sidewalk" name="111"></td>
+	<td><canvas width = "50" height="50" id="Sidewalk" name="112"></td>
+	<td><canvas width = "50" height="50" id="Sidewalk"name="113"></td>
+    <td><canvas width = "50" height="50" id="Sidewalk"name="114"></td>
+	<td><canvas width = "50" height="50" id="Sidewalk" name="115"></td>
+	<td><canvas width = "50" height="50" id="Sidewalk"name="116"></td>
+    <td><canvas width = "50" height="50" id="Sidewalk"name="117"></td>
+	<td><canvas width = "50" height="50" id="Sidewalk" name="118"></td>
+	<td><canvas width = "50" height="50" id="Sidewalk"name="119"></td>
+	<td><canvas width = "50" height="50" id="Sidewalk" name="120"></td>
+	<td><canvas width = "50" height="50" id="Sidewalk" name="121"></td>
+  </tr>
+  </table>
+  <script>
+  
+	// global variables 
+	var square;
+	var minesPlaced;
+	var canvas,context;
+	var minesSurrounding;
+	var interval;
+	var minesExploded = 0;
+	var nonMineSquaresFound = 0;
+	
+	// start game 
+	setMines();
+	generateNumbers();
+	gradeOutEdges();
+	
+	function turn(square){
+		
+		updateBoard(square);
+		endGame();
+	}
+	
+	
+	function setMines(){
+		
+		// generate random mine positions for the 10 mines 
+		minesPlaced=0;
+		while(minesPlaced<10){
+			
+			square = Math.floor((Math.random()*109))+13;
+			canvas = document.getElementsByName(square.toString())[0];
+			
+			// case when mine cannot be placed on square 
+			while(canvas.id =="Mine" || canvas.id == "Sidewalk"){
+			
+				square = Math.floor((Math.random()*109))+13;	
+				canvas = document.getElementsByName(square.toString())[0];
+				
+			}
+			
+			canvas.id="Mine";
+			minesPlaced++;
+		
+		}
+	}
+	
+	
+	
+	function gradeOutEdges(){
+		
+		for(square=1;square<=121;square++){
+			
+			canvas = document.getElementsByName(square.toString())[0];
+			
+			if(canvas.id == "Sidewalk"){
+				
+				context = canvas.getContext('2d');
+				context.fillStyle="grey";
+				context.fillRect(0,0,canvas.width,canvas.height);
+				
+			
+			}
+		}
+	}
+	
+	function generateNumbers(){
+		
+		// check all inner squares for mines surrouding 
+		for(square=13;square<=109;square++){
+			
+			minesSurrounding = 0;
+			canvas = document.getElementsByName(square.toString())[0];
+				
+			// number all squares that do not have mines 
+			if(canvas.id =="Empty"){
+					
+				// check for number of mines surrounding squares
+					
+				// right diagonal above 
+				if(document.getElementsByName((square-12).toString())[0].id == "Mine"){
+					minesSurrounding++;
+					
+				}
+					
+				// square on top 
+				if(document.getElementsByName((square-11).toString())[0].id == "Mine"){
+					minesSurrounding++;
+					
+				}
+					
+				// left diagonal above 
+				if(document.getElementsByName((square-10).toString())[0].id == "Mine"){
+					minesSurrounding++;
+					
+				}
+					
+				// square one right
+				if(document.getElementsByName((square+1).toString())[0].id == "Mine"){
+					minesSurrounding++;
+					
+				}
+					
+				// right diagonal below
+				if(document.getElementsByName((square+12).toString())[0].id == "Mine"){
+					minesSurrounding++;
+					
+				}
+					
+				// square below
+				if(document.getElementsByName((square+11).toString())[0].id == "Mine"){
+					minesSurrounding++;
+					
+				}
+					
+				// left diagonal below
+				if(document.getElementsByName((square+10).toString())[0].id == "Mine"){
+					minesSurrounding++;
+					
+				}
+					
+				// square left
+				if(document.getElementsByName((square-1).toString())[0].id == "Mine"){
+					minesSurrounding++;
+					
+				}
+					
+				canvas.id=minesSurrounding.toString();
+			
+			}
+		}
+	}
+	
+
+	function updateBoard(square){
+		
+		canvas = document.getElementsByName(square)[0];
+		context = canvas.getContext('2d');
+		
+		// if square that player chose contained a mine
+		if(canvas.id == "Mine"){
+			
+			// draw mine 
+			context.fillStyle="black";
+			context.beginPath();
+			context.arc(25,25,25,0,2*Math.PI);
+			context.fill();
+			canvas.id="Chosen";
+			minesExploded++;
+		
+		}
+		
+		// if square has not been clicked before and does not contain a mine
+		else if(!isNaN(canvas.id)){
+			
+			context.font = "50px Arial";
+			context.fillText(canvas.id.toString(),13,40);
+			canvas.id="Chosen";
+			nonMineSquaresFound++;
+		}
+		
+	}
+	
+	function endGame(){
+		
+		
+		// win condition
+		if(nonMineSquaresFound > 70){
+			window.open("minesweepermediummode.html");
+		}
+		
+		// lose condition 
+		else if(minesExploded > 9){
+		
+			location.reload();
+		}
+	}
+	
+  </script>
+</body>
+</html>
