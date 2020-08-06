@@ -2,6 +2,8 @@
 
 Description-A recreation of the classic microsoft developed game which has the same number of squares and mines as the original easy, medium, and expert stages. The player must uncover all the non mine squares without triggering a certain number of mines to progress to the next difficulty level.
 
+Video demonstration avaliable at https://www.youtube.com/watch?v=oALN2YXsCDA
+
 # Required
 
 A web browser to run the html file.
